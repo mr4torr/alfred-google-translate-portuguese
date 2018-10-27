@@ -1,0 +1,42 @@
+{
+  "name": "alfred-google-translate-portuguese",
+  "version": "1.0.0",
+  "description": "Alfred 3 workflow to translate between portuguese and english with google tanslate api",
+  "license": "MIT",
+  "repository": "mr4torr/alfred-google-translate-portuguese",
+  "author": {
+    "name": "mr4torr",
+    "email": "mr4torr@gmail.com",
+    "url": "https://github.com/mr4torr/alfred-google-translate-portuguese"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "translate",
+    "google-translate",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "google-translate-api": "latest"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "*",
+    "xo": "*"
+  }
+}
